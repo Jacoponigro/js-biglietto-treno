@@ -16,6 +16,5 @@ else if (anni > 65) {
 console.log(scontoVecchi)
 // calcolo prezzo biglietto
 var prezzoBiglietto = (prezzoDistanza - scontoVecchi - scontoMinorenni).toFixed(2);
-
 // stampa prezzo biglietto
 document.getElementById('prezzo').innerHTML = prezzoBiglietto + " euro";
